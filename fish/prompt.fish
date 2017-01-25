@@ -1,4 +1,5 @@
 set normal (set_color normal)
+set blue (set_color blue)
 set magenta (set_color magenta)
 set yellow (set_color yellow)
 set green (set_color green)
@@ -8,7 +9,7 @@ set gray (set_color -o black)
 function fish_prompt
 	set -l last_status $status
   # User
-  set_color $fish_color_user
+  set_color green
   echo -n (whoami)
   set_color normal
 
@@ -19,10 +20,10 @@ function fish_prompt
   echo -n (hostname -s)
   set_color normal
 
-  echo -n ':'
+  echo -n ' :'
 
   # PWD
-  set_color $fish_color_cwd
+  set_color yellow
   echo -n (prompt_pwd)
   set_color normal
 
