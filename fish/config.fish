@@ -18,3 +18,7 @@ alias gin "git init"
 alias ga "git add"
 alias gc "git commit -m"
 
+function cd
+  builtin cd $argv
+  ls
+end
