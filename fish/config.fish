@@ -1,4 +1,4 @@
-source $HOME/.fish_conf/fish/prompt.fish
+set -x LANG ja_JP.UTF-8
 
 ################################################################
 #  alias

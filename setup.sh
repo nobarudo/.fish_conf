@@ -1,5 +1,5 @@
 #!/bin/sh
 
-mkdir -p $HOME/.config/fish/
-cd $HOME/.config/fish/
-ln -vfs $HOME/.fish_conf/fish/config.fish
+mkdir -p $HOME/.config/
+cd $HOME/.config/
+ln -vfs $HOME/.fish_conf/fish
